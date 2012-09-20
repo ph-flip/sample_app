@@ -24,6 +24,7 @@ describe User do
   it { should repsond_to(:user_digest) }
   it { should respond_to(:password) }
   it { should respond_to(:password_conformation) }
+  it { should respond_to(:remember_token) }
   it { should respond_to(:authenticate) }
 
   it { should be_valid }
