@@ -1,10 +1,10 @@
 module SessionsHelper
 	def sign_in(user)
-		session[:current_user_id] = current_user.id
+		session[:current_user_id] = user.id
 	end
 
 	def signed_in?
-		session[:current_user_id].nil?
+		session[:current_user_id].present?
 	end
 
 	def current_user=(user)
