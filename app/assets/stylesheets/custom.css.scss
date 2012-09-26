@@ -166,5 +166,8 @@ input, textarea, select, .uneditable-input {
     overflow: auto;
     padding-top: 10px 0;
     border-top: 1px solid $grayLight;
+    &:last-child {
+      border-bottom: 1px solid $grayLight;
+    }
   }
 }
