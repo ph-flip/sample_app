@@ -41,9 +41,9 @@ class UsersController < ApplicationController
   end
 
   def index
-    @user = User.all
+    @users = User.paginate(:page => params[:page])
   end
-  
+
   private
     def signed_in_user
         redirect_to signin_path, notice: "Please sign in." unless signed_in?
