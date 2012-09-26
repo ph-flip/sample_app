@@ -3,6 +3,6 @@ FactoryGirl.define do
   	name "philip matrange"
   	email "phil@m.com"
   	password "foobar"
-  	password_conformation "foobar"
+  	password_confirmation "foobar"
   end	
 end
