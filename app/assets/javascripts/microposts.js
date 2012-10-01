@@ -1,6 +1,6 @@
 function charCountDown() {
 	var remaining_char = 140 - jQuery('#micropost_content').val().length;
-	jQuery('.countdown').text(remaining_char + 'characters remaining');
+	jQuery('.countdown').text(remaining_char + ' characters remaining');
 }
 
 jQuery(document).ready(function($) {
