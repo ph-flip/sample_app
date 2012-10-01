@@ -84,6 +84,7 @@ GEM
     libwebsocket (0.1.5)
       addressable
     listen (0.5.0)
+    logger (1.2.8)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -178,6 +179,7 @@ DEPENDENCIES
   guard-rspec (= 0.5.5)
   guard-spork (= 0.3.2)
   jquery-rails
+  logger (= 1.2.8)
   pg (= 0.12.2)
   rails (= 3.2.8)
   rake (= 0.8.7)
